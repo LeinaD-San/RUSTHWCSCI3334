@@ -1,0 +1,314 @@
+[
+  {
+    "url": "https://example.com",
+    "status": 200,
+    "response_time_ms": 212,
+    "timestamp": 1747257970
+  },
+  {
+    "url": "https://google.com",
+    "status": 200,
+    "response_time_ms": 125,
+    "timestamp": 1747257970
+  },
+  {
+    "url": "https://httpbin.org/get",
+    "status": 200,
+    "response_time_ms": 1002,
+    "timestamp": 1747257971
+  },
+  {
+    "url": "https://jsonplaceholder.typicode.com/posts/1",
+    "status": 200,
+    "response_time_ms": 41,
+    "timestamp": 1747257971
+  },
+  {
+    "url": "https://www.wikipedia.org",
+    "status": 200,
+    "response_time_ms": 57,
+    "timestamp": 1747257971
+  },
+  {
+    "url": "https://github.com",
+    "status": 200,
+    "response_time_ms": 179,
+    "timestamp": 1747257971
+  },
+  {
+    "url": "https://stackoverflow.com",
+    "status": 403,
+    "response_time_ms": 53,
+    "timestamp": 1747257971
+  },
+  {
+    "url": "https://www.mozilla.org",
+    "status": 200,
+    "response_time_ms": 27,
+    "timestamp": 1747257971
+  },
+  {
+    "url": "https://www.cloudflare.com",
+    "status": 200,
+    "response_time_ms": 726,
+    "timestamp": 1747257972
+  },
+  {
+    "url": "https://www.bbc.com",
+    "status": 200,
+    "response_time_ms": 45,
+    "timestamp": 1747257972
+  },
+  {
+    "url": "https://www.nasa.gov",
+    "status": 200,
+    "response_time_ms": 627,
+    "timestamp": 1747257973
+  },
+  {
+    "url": "https://www.redhat.com",
+    "status": 200,
+    "response_time_ms": 316,
+    "timestamp": 1747257973
+  },
+  {
+    "url": "https://www.python.org",
+    "status": 200,
+    "response_time_ms": 31,
+    "timestamp": 1747257973
+  },
+  {
+    "url": "https://www.rust-lang.org",
+    "status": 200,
+    "response_time_ms": 326,
+    "timestamp": 1747257973
+  },
+  {
+    "url": "https://www.oracle.com",
+    "status": 403,
+    "response_time_ms": 84,
+    "timestamp": 1747257973
+  },
+  {
+    "url": "https://www.ibm.com",
+    "status": 200,
+    "response_time_ms": 514,
+    "timestamp": 1747257974
+  },
+  {
+    "url": "https://www.microsoft.com",
+    "status": "error sending request for url (https://www.microsoft.com/): operation timed out",
+    "response_time_ms": 5000,
+    "timestamp": 1747257979
+  },
+  {
+    "url": "https://www.apple.com",
+    "status": 200,
+    "response_time_ms": 176,
+    "timestamp": 1747257979
+  },
+  {
+    "url": "https://www.amazon.com",
+    "status": 200,
+    "response_time_ms": 172,
+    "timestamp": 1747257979
+  },
+  {
+    "url": "https://www.netflix.com",
+    "status": 200,
+    "response_time_ms": 649,
+    "timestamp": 1747257980
+  },
+  {
+    "url": "https://www.spotify.com",
+    "status": 200,
+    "response_time_ms": 439,
+    "timestamp": 1747257980
+  },
+  {
+    "url": "https://www.dropbox.com",
+    "status": 200,
+    "response_time_ms": 128,
+    "timestamp": 1747257980
+  },
+  {
+    "url": "https://www.slack.com",
+    "status": 200,
+    "response_time_ms": 503,
+    "timestamp": 1747257981
+  },
+  {
+    "url": "https://www.trello.com",
+    "status": 200,
+    "response_time_ms": 91,
+    "timestamp": 1747257981
+  },
+  {
+    "url": "https://www.zoom.us",
+    "status": 200,
+    "response_time_ms": 163,
+    "timestamp": 1747257981
+  },
+  {
+    "url": "https://nonexistent.example",
+    "status": "error sending request for url (https://nonexistent.example/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 26,
+    "timestamp": 1747257981
+  },
+  {
+    "url": "https://error.sample",
+    "status": "error sending request for url (https://error.sample/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 194,
+    "timestamp": 1747257981
+  },
+  {
+    "url": "https://thisdoesnotexist123456789.com",
+    "status": "error sending request for url (https://thisdoesnotexist123456789.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 63,
+    "timestamp": 1747257981
+  },
+  {
+    "url": "https://httpstat.us/404",
+    "status": 404,
+    "response_time_ms": 181,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://httpstat.us/500",
+    "status": 500,
+    "response_time_ms": 44,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://httpstat.us/403",
+    "status": 403,
+    "response_time_ms": 45,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "http://localhost:9999",
+    "status": "error sending request for url (http://localhost:9999/): error trying to connect: tcp connect error: Connection refused (os error 111)",
+    "response_time_ms": 0,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "http://localhost:8888",
+    "status": "error sending request for url (http://localhost:8888/): error trying to connect: tcp connect error: Connection refused (os error 111)",
+    "response_time_ms": 0,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "http://127.0.0.1:54321",
+    "status": "error sending request for url (http://127.0.0.1:54321/): error trying to connect: tcp connect error: Connection refused (os error 111)",
+    "response_time_ms": 0,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://invalid-domain-.com",
+    "status": "error sending request for url (https://invalid-domain-.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 84,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://not-a-real-site-xyz123.com",
+    "status": "error sending request for url (https://not-a-real-site-xyz123.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 21,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://example.invalid",
+    "status": "error sending request for url (https://example.invalid/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 17,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "example.com",
+    "status": "builder error: relative URL without a base",
+    "response_time_ms": 0,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "nonexistent.org",
+    "status": "builder error: relative URL without a base",
+    "response_time_ms": 0,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "/path/only",
+    "status": "builder error: relative URL without a base",
+    "response_time_ms": 0,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://192.168.1.999",
+    "status": "builder error: invalid IPv4 address",
+    "response_time_ms": 0,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://expired.badssl.com",
+    "status": "error sending request for url (https://expired.badssl.com/): error trying to connect: error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:1913: (certificate has expired)",
+    "response_time_ms": 175,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://unreachable-test-site-123.com",
+    "status": "error sending request for url (https://unreachable-test-site-123.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 9,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://dns-fail-test-987.com",
+    "status": "error sending request for url (https://dns-fail-test-987.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 51,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://connection-refused-test-456.com",
+    "status": "error sending request for url (https://connection-refused-test-456.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 21,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://timeout-test-abc123.com",
+    "status": "error sending request for url (https://timeout-test-abc123.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 21,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://httpstat.us/503",
+    "status": 503,
+    "response_time_ms": 45,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://httpstat.us/429",
+    "status": 429,
+    "response_time_ms": 45,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://httpstat.us/408",
+    "status": 408,
+    "response_time_ms": 45,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://nonexistent-subdomain.example.com",
+    "status": "error sending request for url (https://nonexistent-subdomain.example.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 24,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://example.com",
+    "status": 200,
+    "response_time_ms": 65,
+    "timestamp": 1747257982
+  },
+  {
+    "url": "https://error.sample",
+    "status": "error sending request for url (https://error.sample/): error trying to connect: dns error: failed to lookup address information: Name or service not known",
+    "response_time_ms": 11,
+    "timestamp": 1747257982
+  }
+]
